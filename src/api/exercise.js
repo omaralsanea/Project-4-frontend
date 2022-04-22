@@ -22,6 +22,16 @@ export const getAllExercises = async () => {
   return data;
 };
 
+export const getAllExercisesForMuscle = async (muscleId) => {
+  const options = {
+    method: 'GET',
+    url: `${baseUrl}/exercises-for-muscle/${muscleId}/`
+  };
+
+  const { data } = await axios.request(options);
+  return data;
+};
+
 // export const getExerciseById = async (id) => {
 //   const options = {
 //     method: 'GET',

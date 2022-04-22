@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 // import MuscleCard from './muscle/MuscleCard';
-// import { getAllMuscles } from '../api/muscle';
+//import { getAllMuscles } from '../api/muscle';
 
 const Home = () => {
   const [muscles, setMuscles] = React.useState(null);
@@ -40,6 +40,9 @@ const Home = () => {
             </figure>
           </h2>
         </div>
+
+
+        <Link to='/muscleexercises/1' className='navbar-item has-text-white'>Shoulder</Link>
         <button className='button label is-fifth is-link'> Bicep</button>
         <button className='button label is-fifth is-warning'> Shoulder</button>
         <button className='button label is-fifth is-success'> Chest</button>
