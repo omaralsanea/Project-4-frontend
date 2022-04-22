@@ -1,0 +1,91 @@
+@import '~bulma/bulma.sass';
+@import url(./partials/_slick-theme.css);
+@import url(./partials/_slick.css);
+@font-face {
+  font-family: 'Stellar-light';
+  src: url(./assets/stellar/Stellar-light.otf);
+}
+@font-face {
+  font-family: 'Stellar-medium';
+  src: url(./assets/stellar/Stellar-Medium.otf);
+}
+@font-face {
+  font-family: 'Stellar-bold';
+  src: url(./assets/stellar/Stellar-Bold.otf);
+}
+
+.slider-element {
+  display: flex;
+  justify-content: center;
+}
+
+.slider-element img {
+  justify-self: center;
+  height: 250px;
+  width: 250px;
+  object-fit: cover;
+  border-radius: 0.25rem;
+}
+
+.artist-img img {
+  object-fit: cover;
+  box-shadow: 0 0 8px 5px #888888;
+}
+
+button.slick-arrow {
+  fill: white;
+}
+
+.release-art img {
+  border-radius: 10px;
+}
+
+.form-page,
+.show-page {
+  height: 100vh;
+}
+
+.navbar-end .navbar-item:hover {
+  background-color: black;
+}
+
+.rateify {
+  font-family: 'Impact';
+  font-size: 4.75rem;
+}
+
+h2,
+h4,
+h3,
+p,
+label,
+nav {
+  font-family: 'Impact';
+}
+
+.artist-img .about-pic {
+  height: 500px;
+}
+
+.mt-6.rateify {
+  font-size: 4rem;
+}
+
+#reviews {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+html {
+  background-color: hsl(0, 80%, 21%);
+}
+
+.logo-img .logo-pic {
+  height: 80px;
+}
+
+.button {
+  font-family: 'Impact';
+}
+
