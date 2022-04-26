@@ -30,7 +30,7 @@ const Navbar = () => {
       <div className='navbar-brand'>
         <figure className='image logo-img'>
           <img
-            src='https://i.imgur.com/p4KPRZy.png'
+            src='https://i.imgur.com/n0uPPlX.png'
             alt='Muscle Logo'
             className='is-rounded mt-1 ml-0 logo-pic'
           />

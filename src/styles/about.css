@@ -1,70 +1,73 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
-
-* {
-  box-sizing: border-box;
-}
-
-.about_wrapper {
-  max-width: 600px;
-}
-
-.profiles {
-  display: flex;
-  justify-content: space-around;
-  gap: 2rem;
-  text-align: center;
-}
-.about {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.profiles a {
-  text-decoration: none;
-  color: white;
-  font-style: italic;
-  margin: 5px;
-}
-.profiles img {
-  height: 150px;
-  border-radius: 5px;
-}
-
-#info {
-  font-family: 'Londrina Shadow', cursive;
-  font-size: 150%;
-  font-weight: bold;
-  font-family: 'DM Sans', sans-serif;
-}
-
-.about h1 {
-  font-family: 'Londrina Shadow', cursive;
-  font-size: 2rem;
-  font-weight: bold;
-  font-family: 'DM Sans', sans-serif;
-  color: white;
-}
-.about h2 {
-  font-family: 'Londrina Shadow', cursive;
-  font-size: 150%;
-  font-weight: bold;
-  font-family: 'DM Sans', sans-serif;
-  margin: 30px 5px 30px 5px;
-}
-
-.about .welcome h1,
-.about p {
-  text-align: center;
-}
-.about .welcome {
-  margin-bottom: 25px;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-@media screen and (min-width: 600px) {
-  .about_wrapper {
-    width: 100%;
+  * {
+    box-sizing: border-box;
   }
-}
+
+  /* body {
+    background-image: url("https: //i.imgur.com/ByBvpko.jpg");
+  } */
+
+
+  .about_wrapper {
+    max-width: 600px;
+  }
+
+  .profiles {
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+  }
+
+  .profiles a {
+    text-decoration: none;
+    color: white;
+    font-style: italic;
+    margin: 5px;
+  }
+
+  .profiles img {
+    height: 150px;
+    border-radius: 5px;
+  }
+
+  #info {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 150%;
+    font-weight: bold;
+    font-family: 'DM Sans', sans-serif;
+  }
+
+  .about h1 {
+    font-family: 'Londrina Shadow', cursive;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'DM Sans', sans-serif;
+    color: grey
+  }
+  .about h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 150%;
+    font-weight: bold;
+    margin: 30px 5px 10px 5px;
+    color: yellow
+  }
+
+  .about .welcome h1,
+  .about p {
+    text-align: center;
+  }
+  .about .welcome {
+    margin-bottom: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  @media screen and (min-width: 600px) {
+    .about_wrapper {
+      width: 100%;
+    }
+  }
+
+  /* .background-image: url("https: //i.imgur.com/L4bwpBv.jpg"); */

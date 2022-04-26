@@ -27,7 +27,7 @@ const ShowExercise = () => {
           <p>Loading...</p>
         ) : (
           <div>
-            <h2 className='title has-text-centered has-text-white'>
+            <h2 className='title has-text-centered has-text-white is-underlined'>
               {exercise.title}
             </h2>
             <div className='columns'>
@@ -53,7 +53,7 @@ const ShowExercise = () => {
                 <div className='container is-flex'>
                   {exercise.muscles.map((muscle) => (
                     <div key={muscle.id} className='image is-128x128 m-2'>
-                      <Link to={`/exercises/${exercise.id}`}>
+                      <Link to={`/muscleexercises/${muscle.id}`}>
                         {muscle.name}
                       </Link>
                     </div>

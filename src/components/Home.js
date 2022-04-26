@@ -21,32 +21,60 @@ const Home = () => {
   return (
     <>
       <section className='hero is-fullheight-with-navbar has-background-grey-light'>
-        <h1 className='rateify title has-text-centered has-text-info mt-2 pt-6'>
+        <h1 className='rateify title has-text-centered pt-5 is-underlined'>
           intelliHench
         </h1>
-        <h2 className='rateify title has-text-centered has-text-info is-size-2'>
+        <h2 className='rateify title has-text-centered is-size-3 is-italic'>
           Work smarter - not harder
         </h2>
         <div className='container'>
-          <h2 className='has-text-centered has-text-info mt-1 mb-5 is-size-3'>
+          <h2 className='has-text-centered is-size-3'>
             {' '}
             Pick an area to target:{' '}
             <figure className='image artist-img'>
               <img
-                src='https://i.imgur.com/Mqlo58U.png'
+                src='https://i.imgur.com/NLPbloT.png'
                 alt='Muscle Diagram'
-                className='is-rounded mt-5 about-pic'
+                className='mt-5 about-pic'
               />
             </figure>
           </h2>
         </div>
 
-
-        <Link to='/muscleexercises/1' className='navbar-item has-text-white'>Shoulder</Link>
-        <button className='button label is-fifth is-link'> Bicep</button>
-        <button className='button label is-fifth is-warning'> Shoulder</button>
-        <button className='button label is-fifth is-success'> Chest</button>
-        <button className='button label is-fifth is-danger'> Abs</button>
+        <div className='muscles1'>
+          <Link to='/muscleexercises/5' className='navbar-item has-text-white'>
+            1. Biceps
+          </Link>
+          <Link to='/muscleexercises/1' className='navbar-item has-text-white'>
+            2. Shoulders
+          </Link>
+          <Link to='/muscleexercises/2' className='navbar-item has-text-white'>
+            3. Chest
+          </Link>
+          <Link to='/muscleexercises/12' className='navbar-item has-text-white'>
+            4. Abdominals
+          </Link>
+          <Link to='/muscleexercises/11' className='navbar-item has-text-white'>
+            5. Quadriceps
+          </Link>
+        </div>
+        <div className='muscles2'>
+          <Link to='/muscleexercises/9' className='navbar-item has-text-white'>
+            6. Traps
+          </Link>
+          <Link to='/muscleexercises/6' className='navbar-item has-text-white'>
+            7. Triceps
+          </Link>
+          <Link to='/muscleexercises/8' className='navbar-item has-text-white'>
+            8. Latissimus Dorsi
+          </Link>
+          <Link to='/muscleexercises/10' className='navbar-item has-text-white'>
+            9. Gluteals and Hamstrings
+          </Link>
+          <Link to='/muscleexercises/4' className='navbar-item has-text-white'>
+            10. Calves
+          </Link>
+        </div>
       </section>
     </>
   );

@@ -19,7 +19,7 @@ const ExerciseIndex = () => {
   }, []);
 
   return (
-    <section className='section has-background-grey-lighter'>
+    <section className='section has-background-grey-light'>
       <div className='container'>
         <div className='columns is-multiline'>
           {!exercises ? (

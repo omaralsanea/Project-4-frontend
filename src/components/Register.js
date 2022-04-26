@@ -31,11 +31,11 @@ function Register() {
   }
 
   return (
-    <section className='is-fullheight-with-navbar has-background-grey-lighter form-page'>
+    <section className='register is-fullheight-with-navbar has-background-grey-dark form-page'>
       <div className='container pt-6'>
         <div className='columns pt-6'>
           <form
-            className='column is-half is-offset-one-quarter box has-background-info'
+            className='column is-half is-offset-one-quarter box has-background-grey-light'
             onSubmit={handleSubmit}
           >
             <div className='field'>
@@ -95,7 +95,7 @@ function Register() {
             <div className='field'>
               <button
                 type='submit'
-                className='button label is-fullwidth is-link'
+                className='button label is-fullwidth is-italic'
               >
                 Register Me!
               </button>

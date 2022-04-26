@@ -14,44 +14,47 @@
   src: url(./assets/stellar/Stellar-Bold.otf);
 }
 
-.slider-element {
-  display: flex;
-  justify-content: center;
-}
+// .slider-element {
+//   display: flex;
+//   justify-content: center;
+// }
 
-.slider-element img {
-  justify-self: center;
-  height: 250px;
-  width: 250px;
-  object-fit: cover;
-  border-radius: 0.25rem;
-}
+// .slider-element img {
+//   justify-self: center;
+//   height: 250px;
+//   width: 250px;
+//   object-fit: cover;
+//   border-radius: 0.25rem;
+// }
 
 .artist-img img {
   object-fit: cover;
   box-shadow: 0 0 8px 5px #888888;
+  border-radius: 25px;
+  float: right;
 }
 
-button.slick-arrow {
-  fill: white;
-}
+// button.slick-arrow {
+//   fill: white;
+// }
 
-.release-art img {
-  border-radius: 10px;
-}
+// .release-art img {
+//   border-radius: 10px;
+// }
 
 .form-page,
 .show-page {
   height: 100vh;
 }
 
-.navbar-end .navbar-item:hover {
-  background-color: black;
-}
+// .navbar-end .navbar-item:hover {
+//   background-color: black;
+// }
 
 .rateify {
   font-family: 'Impact';
   font-size: 4.75rem;
+  color: yellow;
 }
 
 h2,
@@ -61,14 +64,21 @@ p,
 label,
 nav {
   font-family: 'Impact';
+  text-decoration-color: yellow;
 }
 
 .artist-img .about-pic {
   height: 500px;
+  float: right;
 }
+
+// .profile {
+//   height: 300px;
+// }
 
 .mt-6.rateify {
   font-size: 4rem;
+  text-decoration-color: yellow;
 }
 
 #reviews {
@@ -78,7 +88,7 @@ nav {
 }
 
 html {
-  background-color: hsl(0, 80%, 21%);
+  background-color: hsl(0, 0%, 21%);
 }
 
 .logo-img .logo-pic {
@@ -87,5 +97,68 @@ html {
 
 .button {
   font-family: 'Impact';
+  background-color: yellow;
 }
 
+.navbar-item { 
+  font-family: 'Impact';
+  // display: flex;
+  // justify-content:flex-start
+}
+
+// .navbar-item1 {
+//   font-family: 'Impact';
+//   display: flex;
+//   justify-content: flex-end
+// }
+
+.muscles1 {
+  font-family: 'Impact';
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.muscles2 {
+  font-family: 'Impact';
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column; 
+}
+
+.github {
+text-decoration-color: yellow;
+}
+
+.label {
+  text-decoration-color: underline;
+}
+
+.about {
+  background-image: url(https://i.imgur.com/vSNfS3X.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.hero {
+  background-image: url(https://i.imgur.com/NF3Lxia.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+
+.register {
+  background-image: url(https://i.imgur.com/E6cjvmP.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+
+.login {
+  background-image: url(https://i.imgur.com/2uOrG9T.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+
+.p2.float {
+  float: right;
+}
