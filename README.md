@@ -75,11 +75,14 @@ IntelliHench being completely responsive was also a very high priority so that t
 
 
 ## 2) Back-End
-In my first experience using Python and Django as a backend, as well as a SQL database (in the form of PostgreSQL), I created 5 models (apps in Django terminology). These were for the articles, comments, users, meditations and notes. I utilised a custom user model and authentication (using JWT) rather than solely relying on Django’s pre-built version. A total of 19 RESTful API endpoints were created, which were all tested using Postman during the backend build.
+In my first experience using Python and Django as a backend, as well as a SQL database (in the form of PostgreSQL), I created 2 main models (apps in Django terminology). These were for the exercises and muscles. I utilised a custom user model and authentication (using JWT) rather than solely relying on Django’s pre-built version. A total of 19 RESTful API endpoints were created, which were all tested using Postman during the backend build.
 
 
 ## 3) Front-End
-React was used for the creation of the front-end, including the following hooks: useState, useEffect, useRef and useContext. Axios was used for connecting the front-end requests to the back-end, and react-router-dom for the front-end routing. I decided to not use any package for creating the audio player for the guided meditations in order to challenge myself. The player utilises react hooks only and is fully customisable. Cloudinary was used to store the audio files for the app. Upon completing a meditation, the session is saved to the user’s profile. Creating the meditation timer was also extremely rewarding as it was my first experience with React’s useContext hook, which allowed the user to configure the settings for their meditation. Below is a snippet from the timer components:
+React was used for the creation of the front-end, including the following hooks: useState, useEffect, useRef and useContext. Axios was used for connecting the front-end requests to the back-end, and react-router-dom for the front-end routing. Below is a gif that shows navigation from the Home Page to the muscle Page. When a compound exercise like the Deadlift is clicked it shows the exercise description, the gif of the movement and also each of the different muscles that are targetted in the movement. From here you can pick a particular muscle such as the calf which will take you to the Calf page where all the exercises (in contrast to the Deadlift) are isolation movements:
+
+![ezgif-3-9571140a2a](https://user-images.githubusercontent.com/98101603/168935959-f6a1b124-26dc-42bf-9fff-c8861ac606f0.gif)
+
 
 
 ## 4) Styling
