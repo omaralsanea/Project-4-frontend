@@ -87,7 +87,11 @@ The notes page was also a rewarding challenge, especially due to being able to r
 
 
 ## 4) Styling
-As mentioned, the app being fully responsive was crucial from the outset. Bootstrap was utilised in order to neatly create a responsive navbar that became a hamburger menu on appropriate screen sizes. Through using responsive styling methods, barely any additional code was needed to adapt the web-app to mobile. The entire website and menus adapt to whether the user is logged in or not and points them towards doing so. Sass was used for the styling and I decided to style each page to an acceptable standard during the front-end phase, before using a whole day at the end of the project to add the finishing touches.
+I decided to use conventional CSS for the majority of the styling but also employed Bulma too. 
+Due to the nature of the app I wanted a very deliberate and strong design and colour scheme. I eventually decided on heavy text with a black, grey and yellow colour scheme. I decided to create a logo (see screenshot below) and I feel this captures the style of IntelliHench. 
+
+<img width="1017" alt="Screenshot 2022-04-25 at 15 06 16" src="https://user-images.githubusercontent.com/98101603/168933131-eadbc00d-9192-468c-b218-a9625d501176.png">
+
 
 # IntelliHench - Screenshot Walkthrough
 
