@@ -90,7 +90,7 @@ The notes page was also a rewarding challenge, especially due to being able to r
 I decided to use conventional CSS for the majority of the styling but also employed Bulma too. 
 Due to the nature of the app I wanted a very deliberate and strong design and colour scheme. I eventually decided on heavy text with a black, grey and yellow colour scheme. I decided to create a logo (see screenshot below) and I feel this captures the style of IntelliHench. 
 
-<img width="617" alt="Screenshot 2022-04-25 at 15 06 16" src="https://user-images.githubusercontent.com/98101603/168933131-eadbc00d-9192-468c-b218-a9625d501176.png">
+<img width="317" alt="Screenshot 2022-04-25 at 15 06 16" src="https://user-images.githubusercontent.com/98101603/168933131-eadbc00d-9192-468c-b218-a9625d501176.png">
 
 
 # IntelliHench - Screenshot Walkthrough
