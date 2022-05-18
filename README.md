@@ -58,8 +58,8 @@ Clone or download the repository and run the following within the terminal:
 
 ## 1) Planning
 Due to my passion within the area, I arrived fairly quickly at the idea of creating a fitness web-app. I wanted to deliver all the features that I would want from such an app, namely:
-- Exercises - both guided and using a self-timer.
-- Notes - so that the user can scribble down any illuminating thoughts.
+- Exercises - with full descriptions/instructions and gifs demonstrating the movement.
+- A list of all muscles that are targetted in that particular exercise. 
 - Community - a hub for both forum-type threads and admin-posted articles for insight.
 - Profile - a page to keep track of your progress, in order to boost motivation.
 IntelliHench being completely responsive was also a very high priority so that the user can benefit from the app wherever they are.
@@ -103,15 +103,15 @@ Due to the nature of the app I wanted a very deliberate and strong design and co
 
 # Wins & Blockers
 ### **Wins**
-- Complete application that delivers many features across all web devices. 
-- Learning and utilising numerous Hooks and building a fully customisable audio player.
+- Complete application that delivers many features.
+- Learning and utilising numerous Hooks.
 
 ### **Blockers**
 - Learning the idiosyncrasies of SQL databases and Django initially took some time to embed, whilst some of the Django features such as the admin portal were particularly time saving.
 
 # Bugs
-- The favouriting/unfavouriting of a meditation does not always switch the icon as it should.
-- When registering, the user is not given a specific error message explaining that the given password is not strong enough.
+
+-Registration and Login are currently not working.
 
 # Future Improvements
 - The ability to edit a note.
