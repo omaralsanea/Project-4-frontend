@@ -3,6 +3,9 @@
 # Overview
 IntelliHench is a fitness web-app that provides numerous features to help a user achieve their goals. This is a full-stack project which represents my first experience utilising Python and Django on the backend. I chose to undertake our final project individually in order to learn as much as possible over the process. We were given two weeks to build and deliver this project, however, it's worth noting that I began to feel unwell early on and found that I was covid positive and I ended up taking a few days off during this two week period. 
 
+<img width="721" alt="Screenshot 2022-05-18 at 01 34 10" src="https://user-images.githubusercontent.com/98101603/168933835-e1377cde-02f5-4b30-9e0f-cbc5e126cbf3.png">
+
+
 ## Code Installation:
 Clone or download the repository and run the following within the terminal:
 - Setup backend dependencies: pipenv
