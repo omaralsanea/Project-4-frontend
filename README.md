@@ -1,7 +1,7 @@
 # IntelliHench - SEI Project 4
 
 # Overview
-IntelliHench is a fitness web-app that provides numerous features to help a user achieve their goals. This is a full-stack project which represents my first experience utilising Python and Django on the backend. I chose to undertake our final project individually in order to learn as much as possible over the process. The whole web application was built and delivered over a one week period.
+IntelliHench is a fitness web-app that provides numerous features to help a user achieve their goals. This is a full-stack project which represents my first experience utilising Python and Django on the backend. I chose to undertake our final project individually in order to learn as much as possible over the process. We were given two weeks to build and deliver this project, however, it's worth noting that I began to feel unwell early on and found that I was covid positive and I ended up taking a few days off during this two week period. 
 
 ## Code Installation:
 Clone or download the repository and run the following within the terminal:
@@ -31,24 +31,21 @@ Clone or download the repository and run the following within the terminal:
 - Django
 - Django-heroku
 - Django REST Framework
-- Psycopg2
 - PyJWT
 - Python
 
 ### Front-End
 - Axios
-- Bootstrap
+- Bulma
 - React
 - React Router Dom
 - Sass
 
 ### Development Tools
-- Asana (project management)
-- Cloudinary (media hosting)
+- Excalidraw (planning)
 - Git
 - GitHub
 - Heroku (deployment)
-- Miro (planning)
 - Postman
 - QuickDBD (ERD)
 - VS Code
@@ -58,20 +55,18 @@ Clone or download the repository and run the following within the terminal:
 
 ## 1) Planning
 Due to my passion within the area, I arrived fairly quickly at the idea of creating a fitness web-app. I wanted to deliver all the features that I would want from such an app, namely:
-- Meditations - both guided and using a self-timer.
+- Exercises - both guided and using a self-timer.
 - Notes - so that the user can scribble down any illuminating thoughts.
 - Community - a hub for both forum-type threads and admin-posted articles for insight.
 - Profile - a page to keep track of your progress, in order to boost motivation.
 Sway being completely responsive was also a very high priority so that the user can benefit from the app wherever they are.
 
 ### ERD (Entity Relationship Diagram, QuickDBD)
-<img width="858" alt="Screenshot 2021-12-28 at 12 08 03" src="https://user-images.githubusercontent.com/89992629/147564777-506863c0-3392-491b-a4ea-4b61f7b1be25.png">
 
-### Feature Wishlist (Miro)
+<img width="1341" alt="Screenshot 2022-05-18 at 01 09 43" src="https://user-images.githubusercontent.com/98101603/168931902-7038ef4f-54db-406b-bf41-cec2b84d6a39.png">
 
-### Wireframe (Miro)
 
-I used Asana to clearly layout what needed to be achieved within the strict time frame we had, in order that each feature received due attention.
+### Wireframe (Excalidraw)
 
 ## 2) Back-End
 In my first experience using Python and Django as a backend, as well as a SQL database (in the form of PostgreSQL), I created 5 models (apps in Django terminology). These were for the articles, comments, users, meditations and notes. I utilised a custom user model and authentication (using JWT) rather than solely relying on Django’s pre-built version. A total of 19 RESTful API endpoints were created, which were all tested using Postman during the backend build.
