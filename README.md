@@ -77,16 +77,9 @@ IntelliHench being completely responsive was also a very high priority so that t
 ## 2) Back-End
 In my first experience using Python and Django as a backend, as well as a SQL database (in the form of PostgreSQL), I created 5 models (apps in Django terminology). These were for the articles, comments, users, meditations and notes. I utilised a custom user model and authentication (using JWT) rather than solely relying on Django’s pre-built version. A total of 19 RESTful API endpoints were created, which were all tested using Postman during the backend build.
 
-#### Code Snippet - Notes views
 
 ## 3) Front-End
 React was used for the creation of the front-end, including the following hooks: useState, useEffect, useRef and useContext. Axios was used for connecting the front-end requests to the back-end, and react-router-dom for the front-end routing. I decided to not use any package for creating the audio player for the guided meditations in order to challenge myself. The player utilises react hooks only and is fully customisable. Cloudinary was used to store the audio files for the app. Upon completing a meditation, the session is saved to the user’s profile. Creating the meditation timer was also extremely rewarding as it was my first experience with React’s useContext hook, which allowed the user to configure the settings for their meditation. Below is a snippet from the timer components:
-
-#### Code Snippet - Timer component
-
-The notes page was also a rewarding challenge, especially due to being able to read, delete and create a new note all from the same url.
-
-#### Code Snippet - Notes List component
 
 
 ## 4) Styling
@@ -114,9 +107,9 @@ Due to the nature of the app I wanted a very deliberate and strong design and co
 -Registration and Login are currently not working.
 
 # Future Improvements
-- The ability to edit a note.
-- A featured content component within the home page (e.g. the most favourited meditations, most commented on threads).
-- Meditation history within the user profile page.
+- The ability to leave a comment on an exercise.
+- A featured content component within the home page (e.g. the highest rated exercises).
+- The ability to save exercises in a favourite list. 
 - Profile picture/avatar for each user.
 
 # Key Takeaways
