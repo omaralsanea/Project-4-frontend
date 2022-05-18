@@ -1,7 +1,7 @@
 # IntelliHench - SEI Project 4
 
 # Overview
-IntelliHench is a fitness web-app that provides numerous features to help a user achieve their goals. This is a full-stack project which represents my first experience utilising Python and Django on the backend. I chose to undertake our final project individually in order to learn as much as possible over the process. We were given two weeks to build and deliver this project, however, it's worth noting that I began to feel unwell early on and found that I was covid positive and I ended up taking a few days off during this two week period. 
+'intelliHench' is a fitness web-app that provides numerous features to help a user achieve their goals. This is a full-stack project which represents my first experience utilising Python and Django on the backend. I chose to undertake our final project individually in order to learn as much as possible over the process. We were given two weeks to build and deliver this project, however, it's worth noting that I began to feel unwell early on and found that I was covid positive and I ended up taking a few days off during this two week period. 
 
 <img width="921" alt="Screenshot 2022-05-18 at 01 34 10" src="https://user-images.githubusercontent.com/98101603/168933835-e1377cde-02f5-4b30-9e0f-cbc5e126cbf3.png">
 
@@ -56,9 +56,15 @@ Clone or download the repository and run the following within the terminal:
 
 
 ## 1) Planning
-Due to my passion within the area, I arrived fairly quickly at the idea of creating a fitness web-app. I wanted to deliver all the features that I would want from such an app, namely:
+Due to my passion within the area, I arrived fairly quickly at the idea of creating a fitness web-app. It also made a lot of sense as it was a topic that would perfectly demonstrate relationships between the data (between the muscle groups and the exercises). One to many and many to many relationships can be seen - for example, a single compound movement like a deadlift can affect many different muscle groups but those same muscle groups can be exercised by many different exercises.  
+
+I wanted to create an app that anyone could use, whether it was a seasoned lifter looking for new ways to target muscle groups or correct muscle imbalances or someone who had never set foot in a gym before who just wanted more information on how to perform basic exercises. 'intelliHench' could also be used by those with a physical disability or going through physiotherapy for an injury and who are seeking alternative exercises that they can perform or that won't aggravate the injury.
+
+'intelliHench' is designed to give aspiring lifters the knowledge they need to perform targeted training.
+So whatever your level or experience, get started today!
+Not only did I want this to be an app that would be genuinely useful for people interested in fitness and weightlifting I also wanted to deliver all the features that I would want from such an app, namely:
 - Exercises - with full descriptions/instructions and gifs demonstrating the movement.
-- A list of all muscles that are targetted in that particular exercise. 
+- A list of all muscles that are targeted in that particular exercise. 
 - Community - a hub for both forum-type threads and admin-posted articles for insight.
 - Profile - a page to keep track of your progress, in order to boost motivation.
 IntelliHench being completely responsive was also a very high priority so that the user can benefit from the app wherever they are.
@@ -78,7 +84,7 @@ In my first experience using Python and Django as a backend, as well as a SQL da
 
 
 ## 3) Front-End
-React was used for the creation of the front-end, including the following hooks: useState, useEffect, useRef and useContext. Axios was used for connecting the front-end requests to the back-end, and react-router-dom for the front-end routing. Below is a gif that shows navigation from the Home Page to the muscle Page. When a compound exercise like the Deadlift is clicked it shows the exercise description, the gif of the movement and also each of the different muscles that are targetted in the movement. From here you can pick a particular muscle such as the calf which will take you to the Calf page where all the exercises (in contrast to the Deadlift) are isolation movements:
+React was used for the creation of the front-end, including the following hooks: useState, useEffect, useRef and useContext. Axios was used for connecting the front-end requests to the back-end, and react-router-dom for the front-end routing. Below is a gif that shows navigation from the Home Page to the muscle Page. When a compound exercise like the Deadlift is clicked it shows the exercise description, the gif of the movement and also each of the different muscles that are targeted in the movement. From here you can pick a particular muscle such as the calf which will take you to the Calf page where all the exercises (in contrast to the Deadlift) are isolation movements:
 
 ![ezgif-3-9571140a2a](https://user-images.githubusercontent.com/98101603/168935959-f6a1b124-26dc-42bf-9fff-c8861ac606f0.gif)
 
@@ -86,7 +92,7 @@ React was used for the creation of the front-end, including the following hooks:
 
 ## 4) Styling
 I decided to use conventional CSS for the majority of the styling but also employed Bulma too. 
-Due to the nature of the app I wanted a very deliberate and strong design and colour scheme. I eventually decided on heavy text with a black, grey and yellow colour scheme. I decided to create a logo (see screenshot below) and I feel this captures the style of IntelliHench. 
+Due to the nature of the app I wanted a very deliberate and strong design and colour scheme. I eventually decided on heavy text with a black, grey and yellow colour scheme. I decided to create a logo (see screenshot below) and I feel this captures the style of 'intelliHench'. 
 
 <img width="317" alt="Screenshot 2022-04-25 at 15 06 16" src="https://user-images.githubusercontent.com/98101603/168933131-eadbc00d-9192-468c-b218-a9625d501176.png">
 
@@ -115,4 +121,4 @@ Due to the nature of the app I wanted a very deliberate and strong design and co
 - Profile picture/avatar for each user.
 
 # Key Takeaways
-Building IntelliHench was a great way to build my knowledge of Python, as well as of relational databases (SQL). Creating another React front-end further deepened my ability in this area, especially having employed useRef and useContext for the first time. Whilst Django felt a little limiting at times compared to MongoDB/Mongoose, its ability to create a functioning back-end so quickly and efficiently means that I will continue to explore it.
+Building 'intelliHench' was a great way to build my knowledge of Python, as well as of relational databases (SQL). Creating another React front-end further deepened my ability in this area, especially having employed useRef and useContext for the first time. Whilst Django felt a little limiting at times compared to MongoDB/Mongoose, its ability to create a functioning back-end so quickly and efficiently means that I will continue to explore it.
