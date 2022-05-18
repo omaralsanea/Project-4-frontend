@@ -54,7 +54,6 @@ Clone or download the repository and run the following within the terminal:
 - VS Code
 - Yarn
 
-# Approach
 
 ## 1) Planning
 Due to my passion within the area, I arrived fairly quickly at the idea of creating a fitness web-app. I wanted to deliver all the features that I would want from such an app, namely:
