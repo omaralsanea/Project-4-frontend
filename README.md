@@ -59,7 +59,7 @@ Due to my passion within the area, I arrived fairly quickly at the idea of creat
 - Notes - so that the user can scribble down any illuminating thoughts.
 - Community - a hub for both forum-type threads and admin-posted articles for insight.
 - Profile - a page to keep track of your progress, in order to boost motivation.
-Sway being completely responsive was also a very high priority so that the user can benefit from the app wherever they are.
+IntelliHench being completely responsive was also a very high priority so that the user can benefit from the app wherever they are.
 
 ### ERD (Entity Relationship Diagram, QuickDBD)
 
@@ -113,4 +113,4 @@ As mentioned, the app being fully responsive was crucial from the outset. Bootst
 - Profile picture/avatar for each user.
 
 # Key Takeaways
-Building Sway was a great way to build my knowledge of Python, as well as of relational databases (SQL). Creating another React front-end further deepened my ability in this area, especially having employed useRef and useContext for the first time. Whilst Django felt a little limiting at times compared to MongoDB/Mongoose, its ability to create a functioning back-end so quickly and efficiently means that I will continue to delve deeper into it.
+Building IntelliHench was a great way to build my knowledge of Python, as well as of relational databases (SQL). Creating another React front-end further deepened my ability in this area, especially having employed useRef and useContext for the first time. Whilst Django felt a little limiting at times compared to MongoDB/Mongoose, its ability to create a functioning back-end so quickly and efficiently means that I will continue to delve deeper into it.
