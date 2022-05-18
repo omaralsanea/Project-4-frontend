@@ -68,6 +68,9 @@ Sway being completely responsive was also a very high priority so that the user 
 
 ### Wireframe (Excalidraw)
 
+<img width="1258" alt="Screenshot 2022-05-12 at 11 08 06" src="https://user-images.githubusercontent.com/98101603/168931995-b4003264-553a-4f7b-a93f-f571fe3e212c.png">
+
+
 ## 2) Back-End
 In my first experience using Python and Django as a backend, as well as a SQL database (in the form of PostgreSQL), I created 5 models (apps in Django terminology). These were for the articles, comments, users, meditations and notes. I utilised a custom user model and authentication (using JWT) rather than solely relying on Django’s pre-built version. A total of 19 RESTful API endpoints were created, which were all tested using Postman during the backend build.
 
