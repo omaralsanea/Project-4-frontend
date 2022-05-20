@@ -82,6 +82,14 @@ IntelliHench being completely responsive was also a very high priority so that t
 ## 2) Back-End
 In my first experience using Python and Django as a backend, as well as a SQL database (in the form of PostgreSQL), I created 2 main models (apps in Django terminology). These were for the exercises and muscles. I utilised a custom user model and authentication (using JWT) rather than solely relying on Django’s pre-built version. A total of 19 RESTful API endpoints were created, which were all tested using Postman during the backend build.
 
+<img width="825" alt="Screenshot 2022-05-17 at 21 22 33" src="https://user-images.githubusercontent.com/98101603/169497771-f7b89682-eea2-405e-8e96-a697be6ea101.png">
+
+<img width="1440" alt="Screenshot 2022-05-20 at 10 20 34" src="https://user-images.githubusercontent.com/98101603/169497948-86b0676b-ec43-45d6-a64b-f1a70a5e4e3e.png">
+
+<img width="1440" alt="Screenshot 2022-05-20 at 10 21 01" src="https://user-images.githubusercontent.com/98101603/169497984-75a784ee-30ea-4c1b-b1de-52b6961cb24b.png">
+
+
+
 
 ## 3) Front-End
 React was used for the creation of the front-end, including the following hooks: useState, useEffect, useRef and useContext. Axios was used for connecting the front-end requests to the back-end, and react-router-dom for the front-end routing. Below is a gif that shows navigation from the Home Page to the muscle Page. When a compound exercise like the Deadlift is clicked it shows the exercise description, the gif of the movement and also each of the different muscles that are targeted in the movement. From here you can pick a particular muscle such as the calf which will take you to the Calf page where all the exercises (in contrast to the Deadlift) are isolation movements:
