@@ -105,6 +105,7 @@ Due to the nature of the app I wanted a very deliberate and strong design and co
 
 ### All Exercises Page 
 
+![ezgif-3-22d9856e33](https://user-images.githubusercontent.com/98101603/169496445-8f7a0411-4bd9-480d-88b2-1ff87d00aa34.gif)
 
 
 ### Register Page
