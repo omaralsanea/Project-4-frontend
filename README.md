@@ -21,7 +21,7 @@ Clone or download the repository and run the following within the terminal:
 
 
 
-# The Brief:
+# The Brief
 
 - Build a full stack application with a React front-end and a Django back-end.
 - Use a Python-Django fully functional RESTful API to serve your data from a Postgres database.
@@ -100,6 +100,25 @@ Due to the nature of the app I wanted a very deliberate and strong design and co
 # IntelliHench - Screenshot Walkthrough
 
 #### Home Page
+
+<img width="721" alt="Screenshot 2022-05-18 at 01 34 10" src="https://user-images.githubusercontent.com/98101603/169022993-ddd954a1-cc40-4fcc-aec2-8da21de63af3.png">
+
+### All Exercises Page 
+
+
+
+### Register Page
+
+<img width="1440" alt="Screenshot 2022-05-17 at 19 02 17" src="https://user-images.githubusercontent.com/98101603/169023186-f707cba6-3750-4cca-9f11-10dc9f55dfa7.png">
+
+### Login Page
+
+<img width="1440" alt="Screenshot 2022-05-17 at 19 02 27" src="https://user-images.githubusercontent.com/98101603/169023253-a0d60e59-1e7b-48a5-821d-7e23a25a7722.png">
+
+
+### About Page
+
+<img width="1440" alt="Screenshot 2022-05-17 at 19 03 26" src="https://user-images.githubusercontent.com/98101603/169023096-e3ce047f-bcc0-45c9-a142-bdc88b7610d4.png">
 
 
 # Wins & Blockers
