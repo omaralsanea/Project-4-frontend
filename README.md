@@ -95,11 +95,11 @@ After establishing that everything was working correctly in Postman I moved to t
 ## 3) Front-End
 The code snippet below shows the imports, route paths and general structure of the front end: 
 
-<img width="497" alt="Screenshot 2022-05-20 at 10 47 10" src="https://user-images.githubusercontent.com/98101603/169509539-5d1e213d-28ef-4738-b5cf-1ccfd21dcb8f.png">
+<img width="500" alt="Screenshot 2022-05-20 at 10 47 10" src="https://user-images.githubusercontent.com/98101603/169509539-5d1e213d-28ef-4738-b5cf-1ccfd21dcb8f.png">
 
 React was used for the creation of the front-end, including the following hooks: useState, useEffect, useRef and useContext. Axios was used for connecting the front-end requests to the back-end, and react-router-dom for the front-end routing. The code snippet below demonstrates some of the above mentioned methods:
 
-<img width="391" alt="Screenshot 2022-05-20 at 11 26 11" src="https://user-images.githubusercontent.com/98101603/169509627-299f1f5a-ecde-4a1d-99f7-62c6e50c7d79.png">
+<img width="500" alt="Screenshot 2022-05-20 at 11 26 11" src="https://user-images.githubusercontent.com/98101603/169509627-299f1f5a-ecde-4a1d-99f7-62c6e50c7d79.png">
 
 
 Below is a gif that shows navigation from the Home Page to the muscle Page. When a compound exercise like the Deadlift is clicked it shows the exercise description, the gif of the movement and also each of the different muscles that are targeted in the movement. From here you can pick a particular muscle such as the calf which will take you to the Calf page where all the exercises (in contrast to the Deadlift) are isolation movements:
