@@ -101,7 +101,7 @@ Due to the nature of the app I wanted a very deliberate and strong design and co
 
 #### Home Page
 
-<img width="721" alt="Screenshot 2022-05-18 at 01 34 10" src="https://user-images.githubusercontent.com/98101603/169022993-ddd954a1-cc40-4fcc-aec2-8da21de63af3.png">
+<img width="621" alt="Screenshot 2022-05-18 at 01 34 10" src="https://user-images.githubusercontent.com/98101603/169022993-ddd954a1-cc40-4fcc-aec2-8da21de63af3.png">
 
 ### All Exercises Page 
 
